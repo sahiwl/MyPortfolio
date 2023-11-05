@@ -1,0 +1,85 @@
+header{
+    height: 45px;
+}
+
+header nav ul{
+display: flex;
+/* margin: 30%; */
+list-style: none;
+}
+
+header nav ul li{
+    padding-left: 10%;
+}
+
+header a{
+    text-decoration: none;
+    color: brown;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .Container{
+    margin-top: 10%
+    }
+    
+    .Container img{
+    height: 300px;
+    border-radius: 20%;
+    }
+    
+    .Container h2{
+    margin-top: 3%;
+    font-size: 3em;
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    }
+
+    .Container p, ul{
+        margin-top: 2%;
+        font-size: 1.5rem;
+        }
+    
+    footer {
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    background-color: #141E46;
+    
+    }
+
+   #me{
+    border-radius: 50%;
+   }
+
+   .about{
+    font-family: 'Montserrat', sans-serif;
+   }
+   #cp1, .links, footer{
+    font-family: 'Montserrat', sans-serif;
+   }
+
+   .cme, .sahil, .hp1{
+    font-family: 'Playpen Sans', cursive;
+}
+    #p1{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #intro {
+        background-color: #FFF5E0;
+        }
+        #about{
+        background-color: #FF6969;
+        }
+        #contact{
+        background-color: #F5E8B7;
+        }
+
