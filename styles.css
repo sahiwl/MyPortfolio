@@ -1,5 +1,13 @@
-header{
-    height: 45px;
+header {
+  height: 45px;
+  position: sticky;
+  overflow: hidden;
+  top: 0;
+  /* width: 100%; */
+  background-color: #fff4e4;
+  margin-top: -13px;
+  padding-top: 0px;
+  padding-bottom: 10px;
 }
 
 header nav ul{
@@ -27,12 +35,12 @@ section{
     .Container{
     margin-top: 10%
     }
-    
+
     .Container img{
     height: 300px;
     border-radius: 20%;
     }
-    
+
     .Container h2{
     margin-top: 3%;
     font-size: 3em;
@@ -43,14 +51,14 @@ section{
         margin-top: 2%;
         font-size: 1.5rem;
         }
-    
+
     footer {
     line-height: 40px;
     display: flex;
     justify-content: center;
     font-size: 1rem;
     background-color: #141E46;
-    
+
     }
 
    #me{
@@ -82,4 +90,3 @@ section{
         #contact{
         background-color: #F5E8B7;
         }
-
